@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  position: relative;
+}
+
+.social-media {
+  position: fixed;
+  right: 0;
+  margin-top: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.social-media__blog {
+  background-color: #e17b77;
+}
+
+.social-media__facebook {
+  background-color: #3b5998;
+}
+
+.social-media__twitter {
+  background-color: #00aced;
+}
+
+.social-media__github {
+  background-color: #333333;
+}
+
+.social-media__linkedin {
+  background-color: #007bb6;
+}
+
+.social-media li {
+  width: 70px;
+  height: 60px;
+  position: relative;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.social-media li:hover {
+  width: 300px;
+}
+
+.social-media li:hover span {
+  padding-left: 20px;
+  display: block;
+}
+
+.social-media li a {
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  padding-left: 20%;
+}
+
+i {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+}
+
+.social-media li span {
+  letter-spacing: 0.5px;
+  display: none;
+}
+/*# sourceMappingURL=Styles.css.map */
